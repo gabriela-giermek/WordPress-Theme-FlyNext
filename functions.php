@@ -58,3 +58,10 @@ add_filter('upload_mimes', 'svg_mime_types');
  * Custom functions for the theme
  */
 require get_template_directory() . '/inc/acf-blocks.php';
+
+
+
+/**
+ * Template parts
+ */
+require_once( 'template-parts/theme-settings/functions.php' );
