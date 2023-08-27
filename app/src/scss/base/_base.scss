@@ -1,0 +1,59 @@
+// -----------------------------------------------------------------------------
+// Basic styles
+// -----------------------------------------------------------------------------
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $font-primary;
+  font-weight: 400;
+  color: $color-text;
+  line-height: 1;
+  background-color: $color-secondary;
+  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: subpixel-antialiased;
+
+  &.no-scroll {
+    overflow: hidden !important;
+  }
+}
+
+a,
+button,
+.btn {
+  font-family: $font-primary;
+  text-decoration: none;
+  
+  &:hover {
+    text-decoration: none;
+  }
+
+  &:focus {
+    outline: transparent;
+    box-shadow: none;
+  }
+}
+
+a {
+  display: inline-block;
+  transition: color 0.3s ease-in-out;
+}
+
+iframe {
+  max-width: 100%;
+}
+
+img {
+  display: block;
+
+  &.aligncenter {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}

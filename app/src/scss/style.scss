@@ -1,0 +1,24 @@
+@charset 'UTF-8';
+
+// 1. Configuration
+@import
+'utils/variables',
+'utils/mixins';
+
+// 2. Vendors
+@import '~bootstrap/scss/bootstrap-grid';
+@import
+  'vendors/scrollbar';
+
+// 3. Base
+@import
+'base/fonts',
+'base/base',
+'base/helpers',
+'base/typography';
+
+// 4. Components
+
+// 5. Layout
+
+// 6. Pages
