@@ -73,6 +73,8 @@ $header = get_field( 'header', 'option' );
 					</div>
 				</div>
 			</div>
+			
+			<?php get_template_part( 'template-parts/header/fullscreen-menu' ); ?>
 		</nav>
 	</div>
 </header>
