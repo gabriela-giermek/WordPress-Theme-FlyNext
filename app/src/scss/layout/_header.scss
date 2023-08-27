@@ -1,0 +1,67 @@
+// -----------------------------------------------------------------------------
+// Header
+// -----------------------------------------------------------------------------
+
+.header {
+  height: 70px;
+  top: 0;
+  left: 0;
+  background-color: $color-secondary;
+  position: fixed;
+  z-index: 1030;
+
+  @include media-breakpoint-up(lg) {
+    height: 80px;
+  }
+
+  @include media-breakpoint-up(xl) {
+    height: 100px;
+  }
+
+  &__logo {
+    &-img {
+      width: 130px;
+
+      @include media-breakpoint-up(md) {
+        width: 150px;
+      }
+
+      @include media-breakpoint-up(xl) {
+        width: 180px;
+      }
+    }
+  }
+
+  &__logo,
+  &__actions {
+    position: relative;
+    z-index: 1;
+  }
+  
+  &__contact {
+    font-size: 13px;
+    
+    &-icon {
+      width: 25px;
+      margin-right: 10px;
+      fill: $color-white;
+      transition: fill 0.3s ease-in-out;
+    }
+
+    &:hover {
+      .header {
+        &__contact {
+          &-icon {
+            fill: $color-primary;
+          }
+        }
+      }
+    }
+  }
+
+  &__book {
+    margin: 0 30px;
+    padding: 10px 25px;
+    font-size: 13px;
+  }
+}

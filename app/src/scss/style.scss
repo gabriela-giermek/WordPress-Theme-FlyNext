@@ -18,7 +18,12 @@
 'base/typography';
 
 // 4. Components
+@import
+'components/buttons',
+'components/navbar-toggler';
 
 // 5. Layout
+@import
+'layout/header';
 
 // 6. Pages

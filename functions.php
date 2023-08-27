@@ -37,7 +37,10 @@ if ( ! function_exists( 'flynext_scripts' ) ) {
  */
 
 	function flynext_scripts() {
+		wp_enqueue_style( 'main', get_template_directory_uri() . '/dist/css/style.css', false, time(), 'all' );
 		wp_enqueue_style( 'default', get_stylesheet_uri(), false, time(), 'all' );
+		
+		wp_enqueue_script( 'main', get_template_directory_uri() . '/dist/js/main.js', false, time(), true );
 	}
 }
 add_action( 'wp_enqueue_scripts', 'flynext_scripts' );
