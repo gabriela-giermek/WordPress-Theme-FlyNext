@@ -1,0 +1,84 @@
+[
+    {
+        "key": "group_64ecec7578e8d",
+        "title": "Options page: Footer",
+        "fields": [
+            {
+                "key": "field_64ecec744e0b5",
+                "label": "Footer",
+                "name": "footer",
+                "aria-label": "",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "row",
+                "sub_fields": [
+                    {
+                        "key": "field_64ecf2c74e0b6",
+                        "label": "Slogan",
+                        "name": "slogan",
+                        "aria-label": "",
+                        "type": "wysiwyg",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "tabs": "all",
+                        "toolbar": "full",
+                        "media_upload": 0,
+                        "delay": 0
+                    },
+                    {
+                        "key": "field_64ed0e42ed9ee",
+                        "label": "Copyright text",
+                        "name": "copy",
+                        "aria-label": "",
+                        "type": "wysiwyg",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "tabs": "all",
+                        "toolbar": "full",
+                        "media_upload": 0,
+                        "delay": 0
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "theme-footer-settings"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    }
+]

@@ -29,6 +29,7 @@
 		 */
 		register_nav_menus( array(
 			'primary' => __( 'The menu in the header', 'flynext' ),
+			'footer' => __( 'The menu in the footer', 'flynext' ),
 		));
 	}
  }

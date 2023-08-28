@@ -25,4 +25,12 @@ if( function_exists( 'acf_add_options_page' )) {
     'menu_slug' 	=> 'theme-header-settings',
     'capability'	=> 'edit_posts'
   ));
+  
+  acf_add_options_sub_page(array(
+    'page_title'  => 'Footer',
+    'menu_title'  => 'Footer',
+    'parent_slug' => 'theme-settings',
+    'menu_slug' 	=> 'theme-footer-settings',
+    'capability'	=> 'edit_posts'
+  ));
 }

@@ -1,0 +1,76 @@
+[
+    {
+        "key": "group_64eb8ef0c2570",
+        "title": "Options page: Header",
+        "fields": [
+            {
+                "key": "field_64eb8ef0b84d1",
+                "label": "Header",
+                "name": "header",
+                "aria-label": "",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "row",
+                "sub_fields": [
+                    {
+                        "key": "field_64eb901615f6b",
+                        "label": "Link to the contact page",
+                        "name": "contact",
+                        "aria-label": "",
+                        "type": "link",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "array"
+                    },
+                    {
+                        "key": "field_64eb902b15f6c",
+                        "label": "Link to the booking page",
+                        "name": "booking",
+                        "aria-label": "",
+                        "type": "link",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "array"
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "theme-header-settings"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    }
+]

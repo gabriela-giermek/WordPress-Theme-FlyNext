@@ -21,10 +21,13 @@
 @import
 'components/buttons',
 'components/navbar-toggler',
-'components/fullscreen-menu';
+'components/fullscreen-menu',
+'components/footer-menu',
+'components/social-media';
 
 // 5. Layout
 @import
-'layout/header';
+'layout/header',
+'layout/footer';
 
 // 6. Pages

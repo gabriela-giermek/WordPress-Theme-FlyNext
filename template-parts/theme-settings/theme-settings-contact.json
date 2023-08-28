@@ -1,7 +1,7 @@
 [
     {
         "key": "group_64eb88cbcbdec",
-        "title": "Strona opcji: Kontakt",
+        "title": "Options page: Contact",
         "fields": [
             {
                 "key": "field_64eb88cc28ff4",
@@ -44,6 +44,91 @@
                 "max_size": "",
                 "mime_types": "",
                 "preview_size": "medium"
+            },
+            {
+                "key": "field_64eccd62b05ef",
+                "label": "Social media",
+                "name": "",
+                "aria-label": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_64eccd6cb05f0",
+                "label": "Social media",
+                "name": "social_media",
+                "aria-label": "",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "row",
+                "pagination": 0,
+                "min": 0,
+                "max": 0,
+                "collapsed": "",
+                "button_label": "Add Row",
+                "rows_per_page": 20,
+                "sub_fields": [
+                    {
+                        "key": "field_64eccd9edd838",
+                        "label": "Icon",
+                        "name": "icon",
+                        "aria-label": "",
+                        "type": "image",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "array",
+                        "library": "all",
+                        "min_width": "",
+                        "min_height": "",
+                        "min_size": "",
+                        "max_width": "",
+                        "max_height": "",
+                        "max_size": "",
+                        "mime_types": "",
+                        "preview_size": "thumbnail",
+                        "parent_repeater": "field_64eccd6cb05f0"
+                    },
+                    {
+                        "key": "field_64eccdb5dd839",
+                        "label": "Link",
+                        "name": "link",
+                        "aria-label": "",
+                        "type": "url",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "parent_repeater": "field_64eccd6cb05f0"
+                    }
+                ]
             }
         ],
         "location": [
